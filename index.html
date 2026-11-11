@@ -91,7 +91,7 @@ details.adj summary{cursor:pointer;font-weight:500;min-height:40px;display:flex;
 <main class="wrap">
 <section class="hero">
 <h1>Друк фотографій на папері Fujifilm</h1>
-<p>Завантажте знімки, оберіть формат і посуньте кадр так, як хочете бачити відбиток. Готові фото можна забрати в лабораторії за адресою Захисників України 2.</p>
+<p>Завантажте знімки, оберіть формат і посуньте кадр так, як хочете бачити відбиток. Готові фото можна забрати в лабораторії за адресою пр. Перемоги 87.</p>
 </section>
 
 <section class="panel" aria-labelledby="t1">
@@ -122,7 +122,7 @@ details.adj summary{cursor:pointer;font-weight:500;min-height:40px;display:flex;
 <div class="fields">
 <input type="text" id="cname" placeholder="Ваше прізвище" autocomplete="family-name">
 <input type="tel" id="cphone" placeholder="Телефон" autocomplete="tel">
-<div class="lbl">Отримання: заберу за адресою Захисників України 2</div>
+<div class="lbl">Отримання: заберу за адресою пр. Перемоги 87 2</div>
 <textarea id="ccomm" rows="2" placeholder="Коментар до замовлення"></textarea>
 </div>
 <div class="row"><button class="btn" id="sendBtn" disabled>Надіслати замовлення</button><button class="btn alt" id="saveBtn" disabled>Зберегти ZIP</button></div>
@@ -167,7 +167,7 @@ const FORMATS=[
 {id:'3x4',w:3,h:4,p:100,doc:true},{id:'3.5x4.5',w:3.5,h:4.5,p:100,doc:true},{id:'4x6',w:4,h:6,p:100,doc:true},
 {id:'polaroid',name:'Полароїд',w:10,h:15,p:35,g:1,pol:true}]; // Полароїд: ціна за одне фото (2 фото на аркуші = 70 грн)
 const POLF=FORMATS.find(f=>f.pol);
-const TG='https://t.me/+380683355452',GAP=0.3,PICKUP='Заберу за адресою Захисників України 2';
+const TG='https://t.me/+380683355452',GAP=0.3,PICKUP='Заберу за адресою пр. Перемоги 87';
 const fmtOf=id=>FORMATS.find(f=>f.id===id);
 const $=s=>document.querySelector(s);
 const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
